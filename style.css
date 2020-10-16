@@ -40,7 +40,7 @@ header::before {
     position: absolute;
     top: 0;
     bottom: 0;
-    background: rgba(19, 78, 165, 0.336);
+    background: rgba(19, 78, 165, 0.4);
     z-index: 100000;
     mix-blend-mode: color;
 }
