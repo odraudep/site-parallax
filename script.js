@@ -7,7 +7,7 @@ let txt = document.querySelector('#txt')
 
 window.addEventListener('scroll', function() {
     let value = window.scrollY 
-    console.log(value) 
+    // console.log(value) 
 
     sky.style.top = value * 0.15 + 'px'
     bmount.style.bottom = -value * 0.35 + 'px'
@@ -21,4 +21,21 @@ window.addEventListener('scroll', function() {
         area.classList.remove('hide')
     }
 })
+
+// githpic 
+let img = document.querySelector('.hover')
+let div_img = document.querySelector('#img')
+
+img.addEventListener('mouseover', hapart)
+img.addEventListener('mouseout', desp)
+
+function hapart() {
+    img.classList.add('apar')
+    div_img.classList.add('up')
+}
+
+function desp() {
+    img.classList.remove('apar')
+    div_img.classList.remove('up')
+}
 

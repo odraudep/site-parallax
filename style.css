@@ -99,3 +99,60 @@ section {
 .area p {
     text-indent: 40px;
 }
+
+#img {
+    width: 150px;
+    height: 150px;
+    margin: 50px auto 0;
+    position: relative;
+    transition: .4s;
+}
+
+.up {
+    transform: translateY(-5px)
+}
+
+#img img {    
+    border-radius: 50%;
+}
+
+#shadow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #c5e5f691,
+                inset -5px -5px 5px rgb(0, 0, 0, .6),
+                inset 5px 5px 5px rgb(255, 255, 255, .6);
+}
+
+.hover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: .4s;
+}
+
+.hover a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+.hover a:hover {
+    text-decoration: underline;
+}
+
+.apar {
+    opacity: 1;
+}
