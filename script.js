@@ -1,9 +1,10 @@
-// header script
+// header var
 let sky = document.querySelector('#sky')
 let bmount = document.querySelector('#bmount')
 let fmount = document.querySelector('#fmount')
 let txt = document.querySelector('#txt')
-
+// octocat var
+let div_img = document.querySelector('#img')
 
 window.addEventListener('scroll', function() {
     let value = window.scrollY 
@@ -19,12 +20,15 @@ window.addEventListener('scroll', function() {
 
     if (value >= 600) {
         area.classList.remove('hide')
+        // deixa o octocat img visivel
+        setTimeout(function(){
+            div_img.style.opacity = 1
+        }, 650)
     }
 })
 
 // githpic 
 let img = document.querySelector('.hover')
-let div_img = document.querySelector('#img')
 
 img.addEventListener('mouseover', hapart)
 img.addEventListener('mouseout', desp)
@@ -48,3 +52,16 @@ setInterval(function() {
         gitpic.src = 'images/gitpic.png'
     }, 100) // tempo de olhos fechados
 }, 3000)  
+
+// viewport
+window.addEventListener('resize', function() {
+    let vh = window.innerWidth
+    
+    console.log(vh)
+    console.log(typeof vh)
+
+    if (vh <= 325) {
+        alert('[ERRO] Dispositivo muito pequeno')
+    }
+})
+

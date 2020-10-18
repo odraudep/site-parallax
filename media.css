@@ -1,0 +1,47 @@
+@media (max-width: 950px) {
+    #txt {
+        font-size: 7em;
+    }
+}
+
+@media (max-width: 765px) {
+    #txt {
+        font-size: 6em;
+    }
+
+    .area {
+        width: 95%;
+    }
+}
+
+@media (max-width: 633px) {
+    #txt {
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 535px) {
+    #txt {
+        font-size: 4em;
+    }
+
+    section {
+        height: 130vh;
+    }
+}
+
+@media (max-width: 430px) {
+    #txt {
+        font-size: 3em;
+    }
+
+    section {
+        height: 150vh;
+    }
+}
+
+@media (max-width: 325px) {
+    * {
+        display: none;
+    }
+}

@@ -8,11 +8,13 @@
 }
 
 body {
+    position: relative;
     color: white;
-    background-color: #000407;
+    background-color: #000;
     height: 2000px;
 }
 
+/* header */
 header {
     width: 100%;
     height: 100vh;
@@ -27,9 +29,9 @@ header::after {
     width: 100%;
     height: 100px;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
-    background: linear-gradient(to top, #000407, transparent);
+    background: linear-gradient(to top, #000, transparent);
     z-index: 100000;
 }
 
@@ -70,6 +72,7 @@ header img {
     z-index: 1;
 }
 
+/* section */
 section {
     width: 100%;
     height: 100vh;
@@ -77,13 +80,14 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid #cecece;
 }
 
 .area {
-    width: 60%;
+    width: 65%;
     position: absolute;
     text-align: justify;
-    transition: .8s;   
+    transition: .8s;  
 }
 
 .hide {
@@ -103,9 +107,10 @@ section {
 #img {
     width: 150px;
     height: 150px;
-    margin: 50px auto 0;
+    margin: 15px auto 0;
     position: relative;
-    transition: .4s;
+    transition: transform .5s, opacity 2s;
+    opacity: 0;
 }
 
 .up {
