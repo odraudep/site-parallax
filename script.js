@@ -39,3 +39,16 @@ function desp() {
     div_img.classList.remove('up')
 }
 
+// octocat pisca
+let gitpic = document.querySelector('#gitpic')
+
+setInterval(function() {
+    gitpic.src = 'images/gitpic.png'
+    setTimeout(function() {
+        gitpic.src = 'images/gitpic2.png'
+        setTimeout(function(){}, 500)
+    }), 1000
+}, 5000)    
+
+
+
