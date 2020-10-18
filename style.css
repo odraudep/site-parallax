@@ -103,7 +103,7 @@ section {
 .area p {
     text-indent: 40px;
 }
-
+/* my octocat img style */
 #img {
     width: 150px;
     height: 150px;
@@ -160,4 +160,24 @@ section {
 
 .apar {
     opacity: 1;
+}
+/* footer */
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 14, 14);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
