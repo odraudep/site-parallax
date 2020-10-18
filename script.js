@@ -43,12 +43,11 @@ function desp() {
 let gitpic = document.querySelector('#gitpic')
 
 setInterval(function() {
-    gitpic.src = 'images/gitpic.png'
+    gitpic.src = 'images/gitpic2.png'
     setTimeout(function() {
-        gitpic.src = 'images/gitpic2.png'
-        setTimeout(function(){}, 500)
-    }), 1000
-}, 5000)    
+        gitpic.src = 'images/gitpic.png'
+    }, 100) // tempo de olhos fechados
+}, 3000)    
 
 
 
