@@ -47,7 +47,4 @@ setInterval(function() {
     setTimeout(function() {
         gitpic.src = 'images/gitpic.png'
     }, 100) // tempo de olhos fechados
-}, 3000)    
-
-
-
+}, 3000)  
