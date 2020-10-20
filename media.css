@@ -41,6 +41,16 @@
 }
 
 @media (max-width: 325px) {
+    #txt {
+        font-size: 2em;
+    }
+
+    section {
+        height: 190vh;
+    }
+}
+
+@media (max-width: 250px) {
     * {
         display: none;
     }

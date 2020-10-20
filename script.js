@@ -59,7 +59,7 @@ window.addEventListener('resize', function() {
     console.log(vh)
     console.log(typeof vh)
 
-    if (vh <= 325) {
+    if (vh <= 250) {
         alert('[ERRO] Dispositivo muito pequeno')
     }
 })
