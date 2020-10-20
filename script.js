@@ -11,8 +11,8 @@ window.addEventListener('scroll', function() {
     let value = window.scrollY 
 
     sky.style.top = value * 0.15 + 'px'
-    bmount.style.bottom = -value * 0.35 + 'px'
-    fmount.style.bottom = -value * 0.15 + 'px'
+    bmount.style.bottom = -value * 0.15 + 'px'
+    fmount.style.bottom = value * 0.15 + 'px'
     txt.style.top = value + 'px'
     // section script
     let area = document.querySelector('.area')

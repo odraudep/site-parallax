@@ -55,8 +55,12 @@ header img {
     left: 0;
 }
 
-#bmount, #fmount {
+#bmount {
     margin-bottom: -80px;
+}
+
+#fmount {
+    margin-bottom: -90px;
 }
 
 #fmount {
